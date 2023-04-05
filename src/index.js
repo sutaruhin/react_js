@@ -26,28 +26,28 @@
 // //constは上書きできない
 // var3 = 2;
 
-/*
- * テンプレート　バッククオートがポイント
- */
-const name_ = "須田";
-const age_ = 59;
-const message = `私の名前は${name_}です\n年齢は${age_}才でじじいです`;
-console.log(message);
-/*
- * 分割関数
- */
-const myProfile = {
-  name: "須田",
-  age: 58
-};
-const message1 = `名前は${myProfile.name}です。`;
-console.log(message1);
+// /*
+//  * テンプレート　バッククオートがポイント
+//  */
+// const name_ = "須田";
+// const age_ = 59;
+// const message = `私の名前は${name_}です\n年齢は${age_}才でじじいです`;
+// console.log(message);
+// /*
+//  * 分割関数
+//  */
+// const myProfile = {
+//   name: "須田",
+//   age: 58
+// };
+// const message1 = `名前は${myProfile.name}です。`;
+// console.log(message1);
 
-const { name, age } = myProfile;
-const message2 = `名前は${name}です。${age}`;
-console.log(message2);
+// const { name, age } = myProfile;
+// const message2 = `名前は${name}です。${age}`;
+// console.log(message2);
 
-const myProfileClass = ["須田", 59];
-const [name1, age1] = myProfileClass;
-const message4 = `名前は${name1}です。年齢は${age1}です。`;
-console.log(message4);
+// const myProfileClass = ["須田", 59];
+// const [name1, age1] = myProfileClass;
+// const message4 = `名前は${name1}です。年齢は${age1}です。`;
+// console.log(message4);
